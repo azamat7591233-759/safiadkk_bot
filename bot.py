@@ -30,7 +30,7 @@ from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command, CommandObject
 from aiogram.enums import ParseMode
 
-TOKEN = "8780750723:AAGRAiRqInpw5Ywa4gAsU7FzcvGwMhRI6rk"      
+TOKEN = "8780750723:AAH5BLYo0bQ4ly4LCbZU-T9cCWadAs7Icoc"      
 ADMINS = {8655854506, 6119869771}                        
 
 BASE = os.path.dirname(os.path.abspath(__file__))
