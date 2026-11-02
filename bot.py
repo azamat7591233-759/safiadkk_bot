@@ -134,7 +134,7 @@ async def delete(m: types.Message, command: CommandObject):
         data[r] = [p for p in data[r] if p["id"] != uid]
     save(data)
     await m.answer("O'chirildi")
- @dp.message(F.text | F.caption)
+@dp.message(F.text | F.caption)
 async def handle(m: types.Message):
     text = m.text or m.caption
     if not text:
