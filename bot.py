@@ -33,7 +33,7 @@ from aiogram.enums import ParseMode
 TOKEN = "8780750723:AAGRAiRqInpw5Ywa4gAsU7FzcvGwMhRI6rk"      
 ADMINS = {8655854506, 6119869771}                        
 
-BASE = os.path.dirname(os.path.abspath(file))
+BASE = os.path.dirname(os.path.abspath(__file__))
 FILE = os.path.join(BASE, "schedule.json")
 
 bot = Bot(token=TOKEN)
